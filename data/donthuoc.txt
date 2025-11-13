@@ -1,0 +1,3 @@
+DT001,BN001,Paracetamol:500mg x 3/ngay|Amoxicillin:500mg x 2/ngay
+DT002,BN002,VitaminC:1 vien/ngay
+DT003,BN003,Ibuprofen:200mg x 2/ngay|Omeprazole:20mg/ngay
