@@ -23,11 +23,11 @@ public class Main {
         qhd.load();
 
         // Hiển thị trạng thái ban đầu của các danh sách
-        qbn.hienThiDanhSach();
-        qbs.hienThiDanhSach();
-        qlk.hienThiDanhSach();
-        qdt.hienThiDanhSach();
-        qhd.hienThiDanhSach();
+        // qbn.hienThiDanhSach();
+        // qbs.hienThiDanhSach();
+        // qlk.hienThiDanhSach();
+        // qdt.hienThiDanhSach();
+        // qhd.hienThiDanhSach();
 
         // Bắt đầu menu tương tác
         runMainMenu(qbn, qbs, qlk, qdt, qhd);
@@ -79,7 +79,7 @@ public class Main {
         sc.close();
     }
 
-    // ============ SUBMENU BENH NHAN ============
+    //SUBMENU BENH NHAN
     private static void menuBenhNhan(QuanLyBenhNhan qbn, Scanner sc) {
         System.out.println("\n--- BENH NHAN ---");
         System.out.println("1. Xem danh sach");
@@ -131,7 +131,7 @@ public class Main {
         }
     }
 
-    // ============ SUBMENU BAC SI ============
+    //SUBMENU BAC SI
     private static void menuBacSi(QuanLyBacSi qbs, Scanner sc) {
         System.out.println("\n--- BAC SI ---");
         System.out.println("1. Xem danh sach");
@@ -177,7 +177,7 @@ public class Main {
         }
     }
 
-    // ============ SUBMENU LICH KHAM ============
+    //SUBMENU LICH KHAM
     private static void menuLichKham(QuanLyLichKham qlk, QuanLyBenhNhan qbn, QuanLyBacSi qbs, Scanner sc) {
         System.out.println("\n--- LICH KHAM ---");
         System.out.println("1. Xem danh sach");
@@ -254,7 +254,7 @@ public class Main {
         }
     }
 
-    // ============ SUBMENU DON THUOC ============
+    //SUBMENU DON THUOC
     private static void menuDonThuoc(QuanLyDonThuoc qdt, QuanLyBenhNhan qbn, Scanner sc) {
         System.out.println("\n--- DON THUOC ---");
         System.out.println("1. Xem tat ca");
@@ -317,7 +317,7 @@ public class Main {
         }
     }
 
-    // ============ SUBMENU HOA DON ============
+    //SUBMENU HOA DON
     private static void menuHoaDon(QuanLyHoaDon qhd, QuanLyBenhNhan qbn, QuanLyBacSi qbs, QuanLyLichKham qlk, Scanner sc) {
         System.out.println("\n--- HOA DON ---");
         System.out.println("1. Xem tat ca");

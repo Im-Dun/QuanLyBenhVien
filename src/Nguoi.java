@@ -2,9 +2,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
-/*
-  Lưu ngày sinh dưới dạng LocalDate, định dạng hiển thị/ghi file: dd-MM-yyyy
-*/
 public class Nguoi {
     protected String id;
     protected String ten;
